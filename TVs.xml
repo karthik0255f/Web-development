@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="TVs.xsl"?>
+<TVs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TVs.xsd">
+    <TV>
+        <Brand>Samsung</Brand>
+        <Size>55 inches</Size>
+        <SerialNumber>SN123456789</SerialNumber>
+        <YearOfModel>2022</YearOfModel>
+        <Color>Black</Color>
+        <Price>799.99</Price>
+    </TV>
+    <TV>
+        <Brand>LG</Brand>
+        <Size>65 inches</Size>
+        <SerialNumber>SN987654321</SerialNumber>
+        <YearOfModel>2023</YearOfModel>
+        <Color>Silver</Color>
+        <Price>999.99</Price>
+    </TV>
+    <TV>
+        <Brand>Sony</Brand>
+        <Size>50 inches</Size>
+        <SerialNumber>SN456789123</SerialNumber>
+        <YearOfModel>2021</YearOfModel>
+        <Color>White</Color>
+        <Price>699.99</Price>
+    </TV>
+    <TV>
+        <Brand>TCL</Brand>
+        <Size>43 inches</Size>
+        <SerialNumber>SN321654987</SerialNumber>
+        <YearOfModel>2022</YearOfModel>
+        <Color>Gray</Color>
+        <Price>499.99</Price>
+    </TV>
+    <TV>
+        <Brand>Panasonic</Brand>
+        <Size>75 inches</Size>
+        <SerialNumber>SN654123987</SerialNumber>
+        <YearOfModel>2023</YearOfModel>
+        <Color>Black</Color>
+        <Price>1299.99</Price>
+    </TV>
+</TVs>

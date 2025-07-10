@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="dragNdrop.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Dynamic Web Page</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! Welcome to my web page.</p>
+        </section>
+
+        <section>
+            <h2>Dynamic TEXT</h2>
+
+            <p>Hover over this text for dynamic effects:
+                <span id="s1" onmouseover="this.style.color = 'red'; this.style.fontSize = '18pt';"
+                      onmouseout="this.style.color = 'blue'; this.style.fontSize = '24pt';">Hello</span>
+            </p>
+
+            <h3>Drag and Drop Example</h3>
+            <p>Click and drag the image to move it anywhere on the screen:</p>
+            <div id="saturn-container">
+                <img src="images/saturn.jpg" id="saturn" alt="Saturn" />
+				<img src="images/1.jpg" id="saturn" alt="Saturn" />
+				<img src="images/2.jpg" id="saturn" alt="Saturn" />
+				<img src="images/3.jpg" id="saturn" alt="Saturn" />
+				<img src="images/4.jpg" id="saturn" alt="Saturn" />
+				<img src="images/5.jpg" id="saturn" alt="Saturn" />
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Thank you</p>
+    </footer>
+</body>
+</html>
